@@ -109,5 +109,14 @@ docker pull swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/ubuntu:24.10
 docker tag  swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/ubuntu:24.10  docker.io/ubuntu:24.10
 ```
 
-
+Test if CUDA works in your docker image:
+```bash
+docker run  --gpus 1  --cpus 24  -m 64g  --shm-size 30g  -it  -v  /PDCAD/test_data:/pdcad  Image-ID  bash
+```
+```python
+import torch
+a = torch.tensor([1,2,3])
+b = a.to('cuda:0')
+print(a.device, b.device)
+```
 
