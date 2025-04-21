@@ -17,7 +17,7 @@ Key points:
 We will provide a sample submission, with docker image and template description file inside.
 
 ### Install Docker
-You can follow the instructions on [Install Docker](./resources/docker_related.md), if needed. 
+You can follow the instructions on [Install Docker](./resources/docker_install), if needed. 
 
 ## Evaluation Description File
 Please test your docker image in host environment similar to the organizer's, for the least testing errors & communication efforts. 

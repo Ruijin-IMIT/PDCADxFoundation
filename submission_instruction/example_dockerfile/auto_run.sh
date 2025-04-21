@@ -21,6 +21,18 @@ export nnUNet_raw="/pdcad_env/nnunet/nnUNet_raw"
 export nnUNet_preprocessed="/pdcad_env/nnunet/nnUNet_preprocessed"
 export nnUNet_results="/pdcad_env/nnunet/nnUNet_results"
 
+
+# The /pdcad/inputs structure is like:
+# /pdcad/outputs/RJPD_003 --|
+#                           |---NM.nii.gz
+#                           |---QSM.nii.gz
+#                           |---T1.nii.gz
+# /pdcad/outputs/RJPD_007 --|
+#                           |---NM.nii.gz
+#                           |---QSM.nii.gz
+#                           |---T1.nii.gz
+# /pdcad/outputs/RJPD_xxx ... ...
+
 # you can call a python script, to conduct the pdcad logics, i.e. check inputs, do inference, save predictions.
 python /pdcad_env/predict.py
 
