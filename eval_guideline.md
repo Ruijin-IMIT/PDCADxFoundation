@@ -6,8 +6,22 @@ The organizer will test the submitted solution in Ubuntu environment, with 80GB 
 Your docker solution should be tested in a similar environment before submission, Ubuntu 22-25 LTS, one NVIDIA GPU with memory small than 12 GB, 
 The docker image size should not exceed 15GB, uses at most one CUDA GPU, requires at most 64 GB memory, spends at most 30 seconds on each testing case.
 
+![Docker Requirement](images/docker_requirement.png 'Docker Requirement')
+
+Key points: 
+* Volume directory containing `inputs` and `outputs` will be mounted to `pdcad` when creating the container.
+* Your docker image should have `/auto_run.sh` inside, which would be called on startup. 
+* `/auto_run.sh` should check the `/pdcad/inputs` folder for testing cases.
+* The final predictions should be saved to `/pdcad/outputs` folder.
+
+We will provide a sample submission, with docker image and template description file inside.
+
+### Install Docker
+You can follow the instructions on [Install Docker](./resources/docker_related.md), if needed. 
 
 ## Evaluation Description File
+Please test your docker image in host environment similar to the organizer's, for the least testing errors & communication efforts. 
+
 Please document the running record of your docker solution, to reduce misunderstanding and ease the communication.
 Things to include:
 1. your docker testing environment, host Linux version, docker version, GPU type.
