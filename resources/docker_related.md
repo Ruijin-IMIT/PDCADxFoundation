@@ -73,7 +73,7 @@ https://docker.aityp.com/r/docker.io/nvidia/cuda
 Ubuntu Images:
 https://docker.aityp.com/image/docker.io/ubuntu:latest
 
-Docker CMD: docker pull swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/ubuntu:latest
+Docker CMD: `docker pull swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/ubuntu:latest`
 
 
 ### Anaconda
