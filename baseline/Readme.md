@@ -48,6 +48,9 @@ python baseline.py input_dir output_dir temp_dir model_dir
 
 ```
 
+### Docker installation
+Please refer to the docker-readme.md for details.
+
 ### Evaluation
 The evaluation codes and process will be updated in the challenge website and Github repository. 
 
