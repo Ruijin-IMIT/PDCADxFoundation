@@ -12,7 +12,7 @@ Download the model weights:
 
 Google Drive: https://drive.google.com/drive/folders/1EGzzLvoTE_IyfbT_S7bBfZFqMXAZkLFs?usp=sharing
 
-Baidu Drive:  https://pan.baidu.com/s/1MNW8QS0FfvTnGUf_e3ad7Q?pwd=RJPD
+Baidu Drive:  https://pan.baidu.com/s/1sjqrIyvIK5_1x_-Mhah1Vw?pwd=RJPD
 
 ### Environment setup & package installation
 Requirement:
