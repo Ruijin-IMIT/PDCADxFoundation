@@ -1,0 +1,15 @@
+2025-06-24 14:53:06,065 INFO Start
+2025-06-24 14:53:38,142 INFO Epoch: 0 test Acc:  66.7% 
+2025-06-24 14:53:38,318 INFO Epoch: 0 test Acc:  33.3% 
+2025-06-24 14:53:38,502 INFO Epoch: 0 test Acc:  66.7% 
+2025-06-24 14:53:38,724 INFO Epoch: 0 test Acc:  66.7% 
+2025-06-24 14:53:38,942 INFO Epoch: 0 test Acc:  33.3% 
+2025-06-24 14:53:39,134 INFO Epoch: 0 test Acc:  33.3% 
+2025-06-24 14:53:39,353 INFO Epoch: 0 test Acc:  66.7% 
+2025-06-24 14:53:39,591 INFO Epoch: 0 test Acc:  33.3% 
+2025-06-24 14:53:39,793 INFO Epoch: 0 test Acc:  66.7% 
+2025-06-24 14:53:40,033 INFO Epoch: 0 test Acc:  66.7% 
+2025-06-24 14:53:40,273 INFO Epoch: 0 test Acc:  33.3% 
+2025-06-24 14:53:40,494 INFO Epoch: 0 test Acc:  100.0% 
+2025-06-24 14:53:40,696 INFO Epoch: 0 test Acc:  100.0% 
+2025-06-24 14:53:40,902 INFO Epoch: 0 test Acc:  33.3% 

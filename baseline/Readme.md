@@ -6,7 +6,7 @@ Find the source codes at Ruijin-IMIT open-source platforms:
 
 Github: https://github.com/Ruijin-IMIT/PDCADxFoundation/baseline
 
-Gittee: https://gitee.com/ruijin-imit/PDCADxFoundation/baseline
+Gittee: https://gitee.com/ruijin-imit/PDCADxFoundation/tree/master/baseline
 
 Download the model weights:
 
