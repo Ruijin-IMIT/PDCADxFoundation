@@ -37,7 +37,8 @@ pip install -r requirements.txt  # install RRMediCa dependencies
 ```
 
 ### Inference
-Set up the testing paths and make predictions:
+Set up the testing paths and make predictions. The PD classification accuracy of this baseline model
+reach 63% on the validation set (100 cases) and 62% on the testing set (200 cases).
 ```bash
 cd xxx/PDCADxFoundation/baseline
 input_dir = xxx/test_input # val case dirs or test case dirs
